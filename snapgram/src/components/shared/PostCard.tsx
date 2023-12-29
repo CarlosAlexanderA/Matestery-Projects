@@ -8,8 +8,6 @@ type PostCardProps = {
   post: Models.Document;
 };
 export default function PostCard({ post }: PostCardProps) {
-  console.log(post);
-
   const { user } = useUserContext();
   if (!post.creator) return;
 
