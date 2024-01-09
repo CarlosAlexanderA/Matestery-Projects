@@ -32,7 +32,6 @@ export default function SpecialOffer() {
           <Button label="Shop now" iconUrl={arrowRight} />
           <Button
             label="Learn more"
-            iconUrl={arrowRight}
             styleClass="bg-white border-slate-gray text-slate-gray"
           />
         </div>
